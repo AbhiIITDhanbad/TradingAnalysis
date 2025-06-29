@@ -9,5 +9,7 @@ To explore the relationship between trader performance and market sentiment usin
 - **Historical Trading Data** (May & Dec 2023, full 2024, partial 2025)
 - **Fear & Greed Index** (Sentiment data)
 - **Over 210,000 trades across ~247 unique coins**
+<br>
 To uncover actionable insights, I adopted a structured analytical workflow. The initial phase involved a temporal decomposition of the data, analyzing each year (2023-2025) independently to identify year-specific market dynamics. Subsequently, I performed a feature enrichment by integrating the Fear and Greed Index to quantify the interplay between market sentiment and trading success. For behavioral segmentation, I applied Mini-Batch KMeans, a scalable clustering technique designed for efficiency with large datasets. The final step involved using Principal Component Analysis (PCA) to reduce dimensionality and visualize the resulting clusters, providing a clear map of distinct trader cohorts and their performance characteristics.
+<br>
 To get some key insights from my analysis refer to the analysis summary PDF .
